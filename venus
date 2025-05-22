@@ -57,5 +57,18 @@ pass- pz8OqvJBFxH0cSj
 pass- D3XTob0FUImsoBb
 *sol;
   chall type- string search
+  sed -n '/^a9HFX/p' passy
+  expln- sed -n '/pattern/p'.......prints out the pattern
+
+-lvl violet
+pass- WKINVzNQLKLDVAc
+*sol;
+  chall type- str search
+  sed -n '/0JuAZ/p' end
+
+-lvl lucy
+pass- OCmMUjebG53giud
+*sol;
+
   
   
