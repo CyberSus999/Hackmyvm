@@ -1,0 +1,61 @@
+-lvl 1
+pass-havefun!
+*sol;
+  ls -al
+  found the hidden file with pass
+
+-lvl 2
+pass-Y1o645M3mR84ejc
+*sol;
+  find / -type f -name "whereismypazz.txt 2>/dev/null -exec cat {} +
+  explanation- This command redirects the errors of the search to /dev/null ....The -exec executes the cat commnad, {} + cats whatever file is within the command  
+
+-lvl 3 
+pass- oh5p9gAABugHBje
+*sol;
+  sed -n '4069' findme.txt
+  explanation- finds the content at that line number
+
+-lvl 4
+pass- iKXIYg0pyEH2Hos
+*sol;
+  cat ./-
+  expln- reads the hashed fil
+
+-lvl mia
+pass-F67aDmCAAgOOaOc
+*sol;
+  find / -type d -name "name" 2>/dev/null 
+  ls -la
+  cat .file
+
+-lvl  camila
+pass-F67aDmCAAgOOaOc
+*sol;
+  find muack -type f | xargs file 
+  cat /111/111/muack 
+
+-lvl luna
+pass- j3vkuoKQwvbhkMc
+*sol;
+  find / -type f -size 6969c -print 2>/dev/null -exec cat {} +
+
+-lvl eleanor
+pass- UNDchvln6Bmtu7b
+*sol;
+  chall type - user file search
+  find / -user "user" -type f 2>/dev/null -exec cat {} +
+
+-lvl victoria
+pass- pz8OqvJBFxH0cSj
+*sol;
+  chall type- compressed zip file
+  mkdir -p /tmp/suzzy && cp passw0rd.zip /tmp/suzzy && cd /tmp/suzzy
+  unzip passw0rd.zip  && find . -type f -name "*.txt" -exec cat {} +
+
+-lvl isla
+pass- D3XTob0FUImsoBb
+*sol;
+  chall type- string search
+  
+  
